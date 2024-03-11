@@ -21,43 +21,43 @@ public class HelloController : ControllerBase
     {
         new Reservation()
         {
-            ReservationId = 1, RoomId = 1,  PsychoName = "Hej przystojniaku", DateFrom = DateTime.Now.AddDays(2),
-            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800"
+            ReservationId = 1, RoomId = 1,  PsychologistName = "Hej przystojniaku", DateFrom = DateTime.Now.AddDays(2),
+            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 2, RoomId = 2, PsychoName = "Lucyna Malina", DateFrom = DateTime.Now.AddDays(2),
-            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800"
+            ReservationId = 2, RoomId = 2, PsychologistName = "Lucyna Malina", DateFrom = DateTime.Now.AddDays(2),
+            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 3, RoomId = 3, PsychoName = "Ela Mortadela", DateFrom = DateTime.Now.AddDays(2),
-            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800"
+            ReservationId = 3, RoomId = 3, PsychologistName = "Ela Mortadela", DateFrom = DateTime.Now.AddDays(2),
+            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 4, RoomId = 4, PsychoName = "Dynia Gdynia", DateFrom = DateTime.Now.AddDays(2),
-            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800"
+            ReservationId = 4, RoomId = 4, PsychologistName = "Dynia Gdynia", DateFrom = DateTime.Now.AddDays(2),
+            DateTo = DateTime.Now.AddDays(5), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 5, RoomId = 1, PsychoName = "Martyna Kurtyna", DateFrom = DateTime.Now.AddDays(6),
-            DateTo = DateTime.Now.AddDays(8), PhoneNumber = "600700800"
+            ReservationId = 5, RoomId = 1, PsychologistName = "Martyna Kurtyna", DateFrom = DateTime.Now.AddDays(6),
+            DateTo = DateTime.Now.AddDays(8), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 6, RoomId = 1, PsychoName = "Skarbie Barbie", DateFrom = DateTime.Now.AddDays(9),
-            DateTo = DateTime.Now.AddDays(10), PhoneNumber = "600700800"
+            ReservationId = 6, RoomId = 1, PsychologistName = "Skarbie Barbie", DateFrom = DateTime.Now.AddDays(9),
+            DateTo = DateTime.Now.AddDays(10), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 7, RoomId = 4, PsychoName = "Marcin Gortat", DateFrom = DateTime.Now.AddDays(6),
-            DateTo = DateTime.Now.AddDays(7), PhoneNumber = "600700800"
+            ReservationId = 7, RoomId = 4, PsychologistName = "Marcin Gortat", DateFrom = DateTime.Now.AddDays(6),
+            DateTo = DateTime.Now.AddDays(7), PhoneNumber = "600700800", IsRemoved = false
         },
         new Reservation()
         {
-            ReservationId = 8, RoomId = 3, PsychoName = "Marika Szarika", DateFrom = DateTime.Now.AddDays(7),
-            DateTo = DateTime.Now.AddDays(6), PhoneNumber = "600700800"
+            ReservationId = 8, RoomId = 3, PsychologistName = "Marika Szarika", DateFrom = DateTime.Now.AddDays(7),
+            DateTo = DateTime.Now.AddDays(6), PhoneNumber = "600700800", IsRemoved = false
         }
     };
 
